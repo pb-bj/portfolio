@@ -6,7 +6,7 @@ export default function Home() {
 			<div className="mt-28 space-y-4">
 				<Image src="/images/pranish.png" alt="pranish" width={96} height={96} className="object-contain rounded-full" />
 				<h1 className="text-2xl md:text-3xl font-bold  tracking-tight ">
-					Namaste, I'm <span className="text-orange-400">Pranish Bajracharya,</span> <br /> Frontend Developer
+					Namaste, I'm <span className="">Pranish Bajracharya,</span> <br /> Frontend Developer
 				</h1>
 			</div>
 			<p className="mt-4 font-light tracking-tight">

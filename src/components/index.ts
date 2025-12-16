@@ -1,4 +1,5 @@
+import Footer from './footer';
 import Media from './media';
 import Navbar from './navbar';
 
-export { Media, Navbar };
+export { Footer, Media, Navbar };

@@ -1,4 +1,4 @@
-import { Navbar } from '@/components';
+import { Footer, Navbar } from '@/components';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -24,6 +24,7 @@ export default function RootLayout({
 			<body className={`${interSans.className} antialiased`}>
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
