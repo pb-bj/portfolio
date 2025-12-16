@@ -1,3 +1,4 @@
+import Media from './media';
 import Navbar from './navbar';
 
-export { Navbar };
+export { Media, Navbar };
