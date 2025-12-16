@@ -1,4 +1,4 @@
-import { Footer, Navbar } from '@/components';
+import { Footer, Navbar, ThemeProvider } from '@/components';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -20,11 +20,13 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" suppressHydrationWarning>
 			<body className={`${interSans.className} antialiased`}>
-				<Navbar />
-				{children}
-				<Footer />
+				<ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+					<Navbar />
+					{children}
+					<Footer />
+				</ThemeProvider>
 			</body>
 		</html>
 	);

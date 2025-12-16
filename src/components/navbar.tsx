@@ -1,14 +1,10 @@
 'use client';
 import { menuItems } from '@/constants';
 import { Moon, Sun } from 'lucide-react';
-import { useState } from 'react';
+import { useTheme } from 'next-themes';
 
 export default function Navbar() {
-	const [isDarkMode, setIsDarkMode] = useState(true);
-
-	const handleToggleDarkMode = () => {
-		setIsDarkMode(!isDarkMode);
-	};
+	const { setTheme } = useTheme();
 
 	return (
 		<header className="mx-auto px-8 sticky top-0 z-50 py-4 backdrop-blur-sm">
@@ -18,11 +14,8 @@ export default function Navbar() {
 						<li key={item.id}>{item.title}</li>
 					))}
 				</ul>
-				{isDarkMode ? (
-					<Moon className="cursor-pointer" onClick={handleToggleDarkMode} />
-				) : (
-					<Sun className="cursor-pointer" />
-				)}
+				<Moon className="hidden dark:block cursor-pointer" onClick={() => setTheme('light')} />
+				<Sun className="dark:hidden cursor-pointer" onClick={() => setTheme('dark')} />
 			</nav>
 		</header>
 	);
