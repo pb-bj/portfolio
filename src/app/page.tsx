@@ -2,9 +2,15 @@ import { Content, Media } from '@/components';
 
 export default function Home() {
 	return (
-		<section className="w-full max-w-3xl mx-auto flex flex-col py-2 px-8 lg:px-0 min-h-screen">
+		<section className="section-container min-h-screen">
 			<Content />
 			<Media />
+
+			<div className="relative mt-32 font-semibold tracking-tight">
+				<h2 className="text-2xl md:text-3xl font-bold">
+					<span className="text-lg text-gray-500">Professional</span> <br /> Experience
+				</h2>
+			</div>
 		</section>
 	);
 }

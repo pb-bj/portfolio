@@ -18,13 +18,11 @@ export default function Content() {
 					height={96}
 					className="hidden dark:block object-contain rounded-full"
 				/>
-				<h1 className="text-2xl md:text-3xl font-bold  tracking-tight ">
-					Namaste, I'm <span className="">Pranish Bajracharya,</span> <br /> Frontend Developer
-				</h1>
+				<h1 className="text-2xl md:text-3xl font-bold tracking-tight ">Pranish Bajracharya</h1>
 			</div>
-			<p className="mt-4 font-light tracking-tight">
+			<p className="mt-4 font-light tracking-tighter">
 				23-year-old CS student passionate about creating delightful web experiences through thoughtful design and smooth
-				interactions. I build with TypeScript, React, Next.js, and Framer Motion always focused on the user.
+				interactions. I build with <strong>TypeScript, React, Next.js, Nest.js and Framer Motion. </strong>
 			</p>
 		</>
 	);

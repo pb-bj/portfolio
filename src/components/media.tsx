@@ -1,13 +1,16 @@
 import { File, Mail } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Media() {
 	return (
 		<div className="pt-3">
 			<ul className="flex flex-wrap gap-8 md:gap-6 mt-2.5 text-sm tracking-tight font-medium lowercase">
-				<li className="flex justify-baseline gap-2 hover:underline transition ease-linear duration-100 cursor-pointer">
-					<File size={22} />
-					<span className="hidden md:block">resume</span>
+				<li className=" hover:underline transition ease-linear duration-100 cursor-pointer">
+					<Link href={'/resume'} className="flex justify-baseline gap-2">
+						<File size={22} />
+						<span className="hidden md:block">resume</span>
+					</Link>
 				</li>
 				<li className="hover:underline transition ease-linear duration-100 cursor-pointer">
 					<a
