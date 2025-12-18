@@ -62,6 +62,8 @@ export default function ExperienceComponent({
 								))}
 							</ul>
 						</div>
+						{/* for techstack */}
+						<div className="pl-16 py-4">NEXTJS</div>
 					</AccordionContent>
 				</AccordionItem>
 			</Accordion>

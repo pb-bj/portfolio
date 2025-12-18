@@ -30,15 +30,14 @@ export default function WorkExperience() {
 					src="/svg/plutonic.svg"
 					company_name="Plutonic Tech"
 					company_address="Thapathali, Kathmandu"
-					link="https://www.inflancer.com/"
+					link="https://plutonictech.com/"
 					role="Frontend (React) Developer Intern"
-					duration="Onsite | April 2024 - June 2024"
+					duration="Onsite | Feb 2024 - April 2024"
 					contributions={[
-						'Built production-level web applications using Next.js, TypeScript, Tailwind CSS, and modern frontend tools',
-						'Developed Tournaop, a tournament platform with SEO optimization (robots.txt, sitemap.xml, metadata) and smooth UI animations using Framer Motion.',
-						'Implemented fully responsive UI/UX across mobile, tablet, and desktop using Tailwind CSS and reusable design patterns.',
-						'Developed a multilingual public health website with Nepali + English support using next-intl, TypeScript, and the App Router.',
-						'Built the complete Admin Dashboard + CMS for the health platform, featuring multi-language content management using Redux Toolkit, RTK Query, Tailwind CSS, and Shadcn/ui. Integrated API-driven data workflows and optimized the CMS for fast content updates and admin usability.',
+						'Built a responsive e-commerce store using React.js & Context API (add-to-cart, wishlist, filtering, search) Designed UI/UX with SCSS',
+						'Collaborated on projects & presented progress',
+						'Supported WordPress development & CRM system design',
+						'Explored Jira plugin development',
 					]}
 				/>
 			</div>
