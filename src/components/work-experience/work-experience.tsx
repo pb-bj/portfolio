@@ -1,3 +1,4 @@
+import { TechStack } from '@/lib/enums/tech-stack.enum';
 import ExperienceComponent from './experience';
 
 export default function WorkExperience() {
@@ -23,6 +24,16 @@ export default function WorkExperience() {
 						'Developed a multilingual public health website with Nepali + English support using next-intl, TypeScript, and the App Router.',
 						'Built the complete Admin Dashboard + CMS for the health platform, featuring multi-language content management using Redux Toolkit, RTK Query, Tailwind CSS, and Shadcn/ui. Integrated API-driven data workflows and optimized the CMS for fast content updates and admin usability.',
 					]}
+					techstack={[
+						TechStack.NEXTJS,
+						TechStack.TYPESCRIPT,
+						TechStack.TAILWIND,
+						TechStack.SHADCNUI,
+						TechStack.FRAMER_MOTION,
+						TechStack.REDUX_TOOLKIT,
+						TechStack.RTK_QUERY,
+						TechStack.NEXT_INTL,
+					]}
 				/>
 
 				<ExperienceComponent
@@ -31,7 +42,7 @@ export default function WorkExperience() {
 					company_name="Plutonic Tech"
 					company_address="Thapathali, Kathmandu"
 					link="https://plutonictech.com/"
-					role="Frontend (React) Developer Intern"
+					role="Frontend Developer Intern"
 					duration="Onsite | Feb 2024 - April 2024"
 					contributions={[
 						'Built a responsive e-commerce store using React.js & Context API (add-to-cart, wishlist, filtering, search) Designed UI/UX with SCSS',
@@ -39,6 +50,7 @@ export default function WorkExperience() {
 						'Supported WordPress development & CRM system design',
 						'Explored Jira plugin development',
 					]}
+					techstack={[TechStack.REACT, TechStack.JAVASCRIPT, TechStack.TAILWIND, TechStack.SASS, TechStack.NODE]}
 				/>
 			</div>
 		</div>

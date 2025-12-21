@@ -11,6 +11,7 @@ interface ExperienceComponentProps {
 	role: string;
 	duration: string;
 	contributions: string[];
+	techstack?: string[];
 }
 
 export default function ExperienceComponent({
@@ -22,6 +23,7 @@ export default function ExperienceComponent({
 	role,
 	duration,
 	contributions,
+	techstack,
 }: ExperienceComponentProps) {
 	return (
 		<div className="flex flex-col pt-6">
@@ -63,7 +65,13 @@ export default function ExperienceComponent({
 							</ul>
 						</div>
 						{/* for techstack */}
-						<div className="pl-16 py-4">NEXTJS</div>
+						<ul className="pl-11 py-4 flex flex-wrap gap-1">
+							{techstack?.map((stack, index) => (
+								<li key={index} className="border px-2 text-gray-600 text-sm rounded-sm">
+									{stack}
+								</li>
+							))}
+						</ul>
 					</AccordionContent>
 				</AccordionItem>
 			</Accordion>
