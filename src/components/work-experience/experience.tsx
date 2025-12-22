@@ -67,7 +67,10 @@ export default function ExperienceComponent({
 						{/* for techstack */}
 						<ul className="pl-11 py-4 flex flex-wrap gap-1">
 							{techstack?.map((stack, index) => (
-								<li key={index} className="border px-2 text-gray-600 text-sm rounded-sm">
+								<li
+									key={index}
+									className="inline-block mr-1 mt-2 px-2 py-1 bg-gray-200 dark:bg-gray-800 text-xs rounded"
+								>
 									{stack}
 								</li>
 							))}

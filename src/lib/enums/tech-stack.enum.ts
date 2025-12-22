@@ -58,4 +58,10 @@ export enum TechStack {
 	// Apollo
 	APOLLO_CLIENT = 'Apollo Client',
 	APOLLO_SERVER = 'Apollo Server',
+
+	// external api
+	TMDB_API = 'TMDB api',
+
+	// Authentication
+	GOOGLE_AUTH = 'Google OAuth',
 }
