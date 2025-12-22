@@ -1,4 +1,4 @@
-import { Content, Media, WorkExperience } from '@/components';
+import { Content, Media, Projects, WorkExperience } from '@/components';
 
 export default function Home() {
 	return (
@@ -6,6 +6,7 @@ export default function Home() {
 			<Content />
 			<Media />
 			<WorkExperience />
+			<Projects />
 		</section>
 	);
 }
