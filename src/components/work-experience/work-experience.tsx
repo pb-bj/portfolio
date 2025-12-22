@@ -50,7 +50,7 @@ export default function WorkExperience() {
 						'Supported WordPress development & CRM system design',
 						'Explored Jira plugin development',
 					]}
-					techstack={[TechStack.REACT, TechStack.JAVASCRIPT, TechStack.TAILWIND, TechStack.SASS, TechStack.NODE]}
+					techstack={[TechStack.REACT, TechStack.JAVASCRIPT, TechStack.TAILWIND, TechStack.SCSS, TechStack.NODE]}
 				/>
 			</div>
 		</div>

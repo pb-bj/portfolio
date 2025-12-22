@@ -1,15 +1,8 @@
+import { BaseProjectType } from '@/lib/types/project.type';
 import { Link } from 'lucide-react';
 import Image from 'next/image';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
 
-interface ProjectComponentProps {
-	project_name: string;
-	imageSrc: string;
-	url: string;
-	github_url?: string;
-	description?: string;
-	techstack: string[];
-}
 export default function ProjectComponent({
 	project_name,
 	imageSrc,
@@ -17,7 +10,7 @@ export default function ProjectComponent({
 	github_url,
 	description,
 	techstack,
-}: ProjectComponentProps) {
+}: BaseProjectType) {
 	return (
 		<div>
 			<Image src={imageSrc} alt={project_name} width={400} height={370} className="object-contain rounded-md" />
