@@ -5,7 +5,8 @@ export enum TechStack {
 	TYPESCRIPT = 'TypeScript',
 	JAVASCRIPT = 'JavaScript',
 	TAILWIND = 'Tailwind CSS',
-	SASS = 'Sass',
+	SCSS = 'SCSS',
+	CONTEXT_API = 'Context-API',
 	REDUX_TOOLKIT = 'Redux Toolkit',
 	REACT_QUERY = 'React Query',
 	RTK_QUERY = 'RTK Query',
@@ -64,4 +65,7 @@ export enum TechStack {
 
 	// Authentication
 	GOOGLE_AUTH = 'Google OAuth',
+
+	// SEO
+	SEO = 'SEO',
 }

@@ -11,11 +11,13 @@ export default function Navbar() {
 			<nav className="flex justify-between max-w-3xl mx-auto pt-4">
 				<ul className="flex gap-3.5">
 					{menuItems.map((item) => (
-						<li key={item.id}>{item.title}</li>
+						<li key={item.id} className="cursor-pointer">
+							{item.title}
+						</li>
 					))}
 				</ul>
-				<Moon className="hidden dark:block cursor-pointer" onClick={() => setTheme('light')} />
-				<Sun className="dark:hidden cursor-pointer" onClick={() => setTheme('dark')} />
+				<Moon size={18} className="hidden dark:block cursor-pointer" onClick={() => setTheme('light')} />
+				<Sun size={18} className="dark:hidden cursor-pointer" onClick={() => setTheme('dark')} />
 			</nav>
 		</header>
 	);
