@@ -1,13 +1,14 @@
 import { TechStack } from '@/lib/enums/tech-stack.enum';
+import TitleHeader from '../title-header';
 import ExperienceComponent from './experience';
 
 export default function WorkExperience() {
 	return (
 		<div className="relative mt-32 tracking-tight">
-			<h2 className="text-2xl md:text-3xl font-bold">
+			{/* <h2 className="text-2xl md:text-3xl font-bold">
 				<span className="text-lg text-gray-400 dark:text-gray-300/20 leading-0">Professional</span> <br /> Experience
-			</h2>
-
+			</h2> */}
+			<TitleHeader highlightTitle="Professional" title="Experience" totalItems={0} />
 			<div>
 				<ExperienceComponent
 					defaultOpen={true}
