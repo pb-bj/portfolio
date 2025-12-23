@@ -12,6 +12,7 @@ export const Projects: ProjectTypes[] = [
 			'Popcornpix is a web-based movie and series discovery platform built with React and Supabase, powered by the TMDB API. It serves as a modern alternative to IMDb and Rotten Tomatoes, letting users explore, search, and save their favorite titles — all in a sleek, responsive UI.',
 		techstack: [
 			TechStack.REACT,
+			TechStack.TYPESCRIPT,
 			TechStack.REACT_QUERY,
 			TechStack.TMDB_API,
 			TechStack.TAILWIND,
@@ -28,7 +29,7 @@ export const Projects: ProjectTypes[] = [
 		url: 'https://tournaop.com',
 		description:
 			' Tournaop is a comprehensive tournament management platform designed to streamline the organization and execution of e-sports tournaments. Built with Next.js and Tailwind CSS.',
-		techstack: [TechStack.NEXTJS, TechStack.TAILWIND, TechStack.FRAMER_MOTION, TechStack.SEO],
+		techstack: [TechStack.NEXTJS, TechStack.TYPESCRIPT, TechStack.TAILWIND, TechStack.FRAMER_MOTION, TechStack.SEO],
 	},
 	{
 		id: 'jhigu-store',
@@ -38,6 +39,6 @@ export const Projects: ProjectTypes[] = [
 		github_url: 'https://github.com/pb-bj/ecommerce-store',
 		description:
 			' Jhigu Store is a modern e-commerce web application built with sleek, responsive design, filterization, search for specific products and a user-friendly cart system',
-		techstack: [TechStack.REACT, TechStack.SCSS, TechStack.CONTEXT_API],
+		techstack: [TechStack.REACT, TechStack.JAVASCRIPT, TechStack.SCSS, TechStack.CONTEXT_API],
 	},
 ];
