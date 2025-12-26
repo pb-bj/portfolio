@@ -32,6 +32,17 @@ export const Projects: ProjectTypes[] = [
 		techstack: [TechStack.NEXTJS, TechStack.TYPESCRIPT, TechStack.TAILWIND, TechStack.FRAMER_MOTION, TechStack.SEO],
 	},
 	{
+		id: 'pranish-portfolio',
+		project_name: 'Pranish Portfolio',
+		imageSrc: '/images/screenshots/portfolio.png',
+		url: 'https://pranishbajracharya.vercel.app/',
+		github_url: 'https://github.com/pb-bj/portfolio',
+		description:
+			'A modern personal portfolio built with Next.js and TypeScript, showcasing projects, work experience, and technical skills with a strong focus on performance, accessibility, and clean UI. Designed using Tailwind CSS and shadcn/ui, with responsive layouts, smooth interactions, and dark mode support.',
+
+		techstack: [TechStack.NEXTJS, TechStack.TYPESCRIPT, TechStack.TAILWIND, TechStack.SHADCNUI],
+	},
+	{
 		id: 'jhigu-store',
 		project_name: 'Jhigu Store',
 		imageSrc: '/images/screenshots/jhigu-store.png',
