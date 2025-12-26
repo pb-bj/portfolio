@@ -4,10 +4,7 @@ import ExperienceComponent from './experience';
 
 export default function WorkExperience() {
 	return (
-		<div className="relative mt-32 tracking-tight">
-			{/* <h2 className="text-2xl md:text-3xl font-bold">
-				<span className="text-lg text-gray-400 dark:text-gray-300/20 leading-0">Professional</span> <br /> Experience
-			</h2> */}
+		<section id="work" className="relative mt-32 tracking-tight scroll-mt-28">
 			<TitleHeader highlightTitle="Professional" title="Experience" totalItems={0} />
 			<div>
 				<ExperienceComponent
@@ -54,6 +51,6 @@ export default function WorkExperience() {
 					techstack={[TechStack.REACT, TechStack.JAVASCRIPT, TechStack.TAILWIND, TechStack.SCSS, TechStack.NODE]}
 				/>
 			</div>
-		</div>
+		</section>
 	);
 }

@@ -12,7 +12,7 @@ export default function Navbar() {
 				<ul className="flex gap-3.5">
 					{menuItems.map((item) => (
 						<li key={item.id} className="cursor-pointer">
-							{item.title}
+							<a href={`#${item.id}`}>{item.title}</a>
 						</li>
 					))}
 				</ul>

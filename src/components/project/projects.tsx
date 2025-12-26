@@ -6,7 +6,7 @@ import ProjectComponent from './project-component';
 
 export default function Projects() {
 	return (
-		<div className="relative mt-32 tracking-tight">
+		<section id="projects" className="relative mt-32 tracking-tight scroll-mt-24">
 			<TitleHeader title="Projects" totalItems={projectData.length} />
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-16">
 				{projectData.slice(0, 3).map((project) => (
@@ -25,6 +25,6 @@ export default function Projects() {
 			<Link href="/projects">
 				<Button className="flex items-center justify-center mx-auto mt-8 cursor-pointer">Show More</Button>
 			</Link>
-		</div>
+		</section>
 	);
 }
