@@ -4,19 +4,20 @@ export default function Content() {
 	return (
 		<>
 			<div className="mt-28 space-y-4">
-				<Image
-					src={'/images/pranish.png'}
+				{/* <Image
+					src={'/images/christmas_sunglass.png'}
 					alt="pranish"
 					width={96}
 					height={96}
-					className="dark:hidden object-contain rounded-full"
-				/>
+					className="dark:hidden object-fill rounded-full"
+				/> */}
 				<Image
-					src={'/images/smile_pranish.png'}
+					src={'/images/christmas.png'}
 					alt="pranish"
 					width={96}
 					height={96}
-					className="hidden dark:block object-contain rounded-full"
+					// className="hidden dark:block object-contain rounded-full"
+					className="object-contain rounded-full"
 				/>
 				<h1 className="text-2xl md:text-3xl font-bold tracking-tight ">Pranish Bajracharya</h1>
 			</div>
