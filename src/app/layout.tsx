@@ -1,4 +1,4 @@
-import { Footer, Navbar, ThemeProvider } from '@/components';
+import { Footer, Navbar, ScrollToTop, ThemeProvider } from '@/components';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -25,6 +25,7 @@ export default function RootLayout({
 				<ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 					<Navbar />
 					{children}
+					<ScrollToTop />
 					<Footer />
 				</ThemeProvider>
 			</body>

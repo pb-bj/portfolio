@@ -19,7 +19,7 @@ export default function Content() {
 					// className="hidden dark:block object-contain rounded-full"
 					className="object-contain rounded-full"
 				/>
-				<h1 className="text-2xl md:text-3xl font-bold tracking-tight ">Pranish Bajracharya</h1>
+				<h1 className="text-2xl md:text-3xl font-bold tracking-tight">Pranish Bajracharya</h1>
 			</div>
 			<p className="mt-4 font-light tracking-tighter">
 				23-year-old CS student passionate about creating delightful web experiences through thoughtful design and smooth
