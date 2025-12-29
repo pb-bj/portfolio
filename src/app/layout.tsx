@@ -1,4 +1,5 @@
 import { Footer, Navbar, ScrollToTop, ThemeProvider } from '@/components';
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -25,6 +26,7 @@ export default function RootLayout({
 				<ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 					<Navbar />
 					{children}
+					<Analytics />
 					<ScrollToTop />
 					<Footer />
 				</ThemeProvider>
