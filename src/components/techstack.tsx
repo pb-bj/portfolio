@@ -1,3 +1,6 @@
+'use client';
+import { blurRevealAnimation } from '@/lib/animation';
+import { motion } from 'motion/react';
 import Image from 'next/image';
 
 interface Tech {
@@ -35,7 +38,8 @@ export default function TechStack() {
 							transition-all duration-300
 						"
 					>
-						<a
+						<motion.a
+							{...blurRevealAnimation}
 							href={tech.url}
 							target="_blank"
 							rel="noopener noreferrer"
@@ -53,7 +57,7 @@ export default function TechStack() {
 								/>
 							</div>
 							<span className="text-xs text-gray-600 dark:text-gray-400">{tech.name}</span>
-						</a>
+						</motion.a>
 					</div>
 				))}
 			</div>

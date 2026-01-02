@@ -1,10 +1,24 @@
+'use client';
+import { blurRevealAnimation } from '@/lib/animation';
 import { TechStack } from '@/lib/enums/tech-stack.enum';
+import { motion, useInView } from 'motion/react';
+import { useRef } from 'react';
 import TitleHeader from '../title-header';
 import ExperienceComponent from './experience';
 
 export default function WorkExperience() {
+	const ref = useRef(null);
+	const isInView = useInView(ref, { once: true, amount: 0.2 });
+
 	return (
-		<section id="work" className="relative mt-32 tracking-tight scroll-mt-28">
+		<motion.section
+			id="work"
+			ref={ref}
+			initial={blurRevealAnimation.initial}
+			animate={isInView ? blurRevealAnimation.animate : blurRevealAnimation.initial}
+			transition={blurRevealAnimation.transition}
+			className="relative mt-32 tracking-tight scroll-mt-28"
+		>
 			<TitleHeader highlightTitle="Professional" title="Experience" totalItems={0} />
 			<div>
 				<ExperienceComponent
@@ -51,6 +65,6 @@ export default function WorkExperience() {
 					techstack={[TechStack.REACT, TechStack.JAVASCRIPT, TechStack.TAILWIND, TechStack.SCSS, TechStack.NODE]}
 				/>
 			</div>
-		</section>
+		</motion.section>
 	);
 }

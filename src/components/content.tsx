@@ -1,9 +1,12 @@
+'use client';
+import { blurRevealAnimation } from '@/lib/animation';
+import { motion } from 'motion/react';
 import Image from 'next/image';
 
 export default function Content() {
 	return (
 		<>
-			<div className="mt-28 space-y-4">
+			<motion.div {...blurRevealAnimation} className="mt-28 space-y-4">
 				{/* <Image
 					src={'/images/christmas_sunglass.png'}
 					alt="pranish"
@@ -20,11 +23,11 @@ export default function Content() {
 					className="object-contain rounded-full"
 				/>
 				<h1 className="text-2xl md:text-3xl font-bold tracking-tight">Pranish Bajracharya</h1>
-			</div>
-			<p className="mt-4 font-light tracking-tighter">
+			</motion.div>
+			<motion.p {...blurRevealAnimation} className="mt-4 font-light tracking-tighter">
 				23-year-old CS student passionate about creating delightful web experiences through thoughtful design and smooth
 				interactions. I build with <strong>TypeScript, React, Next.js, Nest.js and Framer Motion. </strong>
-			</p>
+			</motion.p>
 		</>
 	);
 }

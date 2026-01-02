@@ -1,4 +1,5 @@
 import BackToHome from './back-to-home';
+import RouteButton from './common/route-button';
 import Content from './content';
 import Footer from './footer';
 import Media from './media';
@@ -16,6 +17,7 @@ export {
 	Media,
 	Navbar,
 	Projects,
+	RouteButton,
 	ScrollToTop,
 	ThemeProvider,
 	TitleHeader,
