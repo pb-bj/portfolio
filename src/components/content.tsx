@@ -7,20 +7,19 @@ export default function Content() {
 	return (
 		<>
 			<motion.div {...blurRevealAnimation} className="mt-28 space-y-4">
-				{/* <Image
-					src={'/images/christmas_sunglass.png'}
+				<Image
+					src={'/images/pranish.png'}
 					alt="pranish"
 					width={96}
 					height={96}
 					className="dark:hidden object-fill rounded-full"
-				/> */}
+				/>
 				<Image
-					src={'/images/christmas.png'}
+					src={'/images/smile_pranish.png'}
 					alt="pranish"
 					width={96}
 					height={96}
-					// className="hidden dark:block object-contain rounded-full"
-					className="object-contain rounded-full"
+					className="hidden dark:block object-contain rounded-full"
 				/>
 				<h1 className="text-2xl md:text-3xl font-bold tracking-tight">Pranish Bajracharya</h1>
 			</motion.div>
