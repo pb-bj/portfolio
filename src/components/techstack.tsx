@@ -17,10 +17,12 @@ export default function TechStack() {
 		{ name: 'React', icon: '/svg/reactjs.svg', url: 'https://react.dev/' },
 		{ name: 'TypeScript', icon: '/svg/typescript.svg', url: 'https://www.typescriptlang.org/' },
 		{ name: 'Tailwind CSS', icon: '/svg/tailwindcss.svg', url: 'https://tailwindcss.com/' },
+		{ name: 'Node.js', icon: '/svg/nodejs.svg', url: 'https://nodejs.org/' },
+		{ name: 'Capacitor.js', icon: '/svg/capacitorjs.svg', url: 'https://capacitorjs.com/' },
 		{ name: 'PostgreSQL', icon: '/svg/pgsql.svg', url: 'https://www.postgresql.org/' },
+		{ name: 'Supabase', icon: '/svg/supabase-icon.svg', url: 'https://supabase.com/' },
 		{ name: 'Vercel', icon: '/svg/vercel.svg', url: 'https://vercel.com/', invertOnDark: true },
 		{ name: 'GitHub', icon: '/svg/github.svg', url: 'https://github.com/', invertOnDark: true },
-		{ name: 'Supabase', icon: '/svg/supabase-icon.svg', url: 'https://supabase.com/' },
 		{ name: 'Motion.dev', icon: '/svg/motion-dev.svg', url: 'https://motion.dev/' },
 	];
 

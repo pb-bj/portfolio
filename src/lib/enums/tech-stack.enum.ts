@@ -13,6 +13,7 @@ export enum TechStack {
 	FRAMER_MOTION = 'Framer Motion',
 	SHADCNUI = 'Shadcn/ui',
 	NEXT_INTL = 'internationalization (i18n)',
+	CAPACITOR = 'Capacitor.js',
 
 	// Backend
 	NODE = 'Node.js',

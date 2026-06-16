@@ -20,9 +20,33 @@ export default function WorkExperience() {
 			className="relative mt-32 tracking-tight scroll-mt-28"
 		>
 			<TitleHeader highlightTitle="Professional" title="Experience" totalItems={0} />
-			<div>
-				<ExperienceComponent
+			<div><ExperienceComponent
 					defaultOpen={true}
+					src="/svg/digitenium_logo.svg"
+					company_name="Digitenium"
+					company_address="San Francisco Bay Area, California"
+					link="https://digitenium.com/"
+					role="Software Developer"
+					duration="Remote | Feb 2026 - Present"
+					contributions={[
+						'Developed and maintained production-ready web interfaces using Next.js and TypeScript, ensuring performance and responsiveness across devices',
+						'Built and enhanced mobile application features using Capacitor.js, enabling seamless web-to-iOS deployment',
+						'Tested and optimized application performance on iOS devices (iPhone) to ensure stable user experience',
+						'Integrated frontend with backend services through REST APIs, improving data flow and application functionality',
+						'Contributed to backend development tasks using Node.js, supporting feature implementation and API improvements',
+						'Managed iOS build configuration and deployed the application to Apple App Store Connect',
+						'Deployed and released the application on the iOS App Store, ensuring smooth production rollout',
+					]}
+					techstack={[
+						TechStack.NEXTJS,
+						TechStack.TYPESCRIPT,
+						TechStack.TAILWIND,
+						TechStack.CAPACITOR,
+						TechStack.NODE,
+					]}
+				/>
+				<ExperienceComponent
+					defaultOpen={false}
 					src="/svg/inflancer.svg"
 					company_name="Inflancer Technology"
 					company_address="Gwarko, Lalitpur"

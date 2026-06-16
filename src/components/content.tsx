@@ -24,8 +24,8 @@ export default function Content() {
 				<h1 className="text-2xl md:text-3xl font-bold tracking-tight">Pranish Bajracharya</h1>
 			</motion.div>
 			<motion.p {...blurRevealAnimation} className="mt-4 font-light tracking-tighter">
-				23-year-old CS student passionate about creating delightful web experiences through thoughtful design and smooth
-				interactions. I build with <strong>TypeScript, React, Next.js, Nest.js and Framer Motion. </strong>
+				Software Developer focused on building scalable web and mobile applications. I work with TypeScript, React, Next.js, Node.js to build clean, performant, and user-focused products. I enjoy working across both frontend and backend systems and improving how applications are designed and delivered.
+
 			</motion.p>
 		</>
 	);
